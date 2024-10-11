@@ -1,0 +1,361 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #082032;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Afacad Flux';
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(230, 230, 56);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+nav li a:hover{
+    color: #ff8000;
+    text-decoration: dotted;
+    text-shadow: 4px 4px 6px red;
+    font-family: 'PT Sans Narrow';
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #8e4710;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    text-shadow: 6px 6px 10px green;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/fondo_seccion1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    color: green;
+    font-size: 30px;
+    font-family: 'Joan';
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 220px;
+    margin-bottom: 25px;
+}
+
+.contenidouno h2{
+    color: purple;
+    font-size: 25px;
+    font-family: 'Joan';
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.contenidouno p{
+    color: lightgreen;
+    font-size: 15px;
+    font-family:'Cute Font';
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+
+}
+
+.button {
+    background-color: #125f37;
+    color: rgb(116, 249, 28);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: wavy;
+    border: 2px solid white;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color: #e9b022;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: dotted;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/fondo_seccion22.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    color:#df3b77;
+    font-family: 'Afacad Flux';
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #2abfe8;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ff0000;
+    font-family: 'PT Sans Narrow';
+  }
+
+  .galeria p {
+    color: #4a2b00;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+  }
+
+  .galeria .texto_primario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: #829f0f;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #b928c4;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 1px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #b31500;
+    border-radius: 10px;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #082032;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3{
+    color: #ff8000;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+  footer h4{
+    margin-top: 25px;
+  }
+
+  footer div p{
+    color: #ff8000;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 5px;
+  }
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff8000; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
